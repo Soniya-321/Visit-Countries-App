@@ -1,0 +1,72 @@
+.app-container {
+  background-color: #161624;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 15px 40px;
+}
+.app-container h1 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 500;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+  background-color: #1f1f2f;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow-y: scroll;
+  height: 45vh;
+}
+.country-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  border: 0.5px solid #94a3b8;
+}
+.country-item p {
+  color: #f8fafc;
+  font-size: 17px;
+  margin-left: 15px;
+}
+.visit-btn {
+  background-color: #3b82f6;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 15px;
+  margin-right: 15px;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: bold;
+}
+.visited-btn {
+  background-color: transparent;
+  color: #cbd5e1;
+  border: none;
+  margin-right: 15px;
+  outline: none;
+  cursor: pointer;
+}
+.no-visited-list {
+  min-height: 40vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.visited-contries {
+  display: flex;
+  flex-direction: row;
+  border: none;
+  background-color: transparent;
+  border-radius: 0px;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,33 @@
+.country-item-visited {
+  list-style-type: none;
+  border: none;
+  margin-right: 10px;
+  border-radius: 0px;
+}
+.visited-img {
+  height: 180px;
+  width: 280px;
+  border: 0px;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f1f2f;
+}
+.text p {
+  color: #fff;
+  font-size: 17px;
+  margin-left: 5px;
+}
+.text button {
+  font-size: 15px;
+  background-color: transparent;
+  border: #fff solid 1px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}
